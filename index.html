@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for charset and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section with logo -->
+    <div class="header">
+        <div class="logo">
+            <!-- Logo image with alt text, replace path with your logo -->
+            <img src="./Assets/www.png" alt="Logo" id="logo">
+        </div>
+    </div>
+
+    <!-- Main container holding the content -->
+    <div class="container">
+        <!-- Countdown section displaying the launch countdown -->
+        <div id="countdown" class="countdown">
+            <h1>Coming Soon!</h1>
+            <div id="timer">
+                <!-- Countdown time blocks for days, hours, minutes, and seconds -->
+                <div class="time-block">
+                    <span id="days">00</span>
+                    <span>Days</span>
+                </div>
+                <div class="time-block">
+                    <span id="hours">00</span>
+                    <span>Hours</span>
+                </div>
+                <div class="time-block">
+                    <span id="minutes">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="time-block">
+                    <span id="seconds">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notification signup form section -->
+        <div class="notification">
+            <h2>Notify Me!</h2>
+            <form id="notify-form">
+                <!-- Email input field -->
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <!-- Submit button -->
+                <button type="submit">Notify Me</button>
+            </form>
+        </div>
+
+        <!-- Social media section with icons -->
+        <div class="social-icons">
+            <!-- Social media icon links (replace paths with actual icon links) -->
+            <a href="https://facebook.com" target="_blank" class="social-icon"><img src="./Assets/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><img src="./Assets/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><img src="./Assets/instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
